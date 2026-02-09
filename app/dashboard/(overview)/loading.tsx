@@ -1,8 +1,9 @@
-import {RevenueChartSkeleton ,LatestInvoicesSkeleton} from '@/app/ui/skeletons';
+import {RevenueChartSkeleton } from '@/app/ui/skeletons';
 
 export default function Loading() {
-   return(
+   return (
       <RevenueChartSkeleton />
+       
+   );
       
-   ) ;
 }
